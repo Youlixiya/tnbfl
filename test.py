@@ -4,7 +4,7 @@ import torch
 from torch import nn
 from transformers import AutoTokenizer, BertForSequenceClassification
 
-model_path = 'checkpoints/bert'
+model_path = 'checkpoints/roberta'
 model_max_length = 256
 # with open('data/class.txt') as f:
 #     classes = f.readlines()
